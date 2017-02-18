@@ -15,13 +15,18 @@ app.get('/:firstAction*?', (req, res) => {
   let result = getPresidents();
 
   // Get all the path action bits
+  let firstAction = req.params.firstAction;
+  if (!firstAction) {
+    firstAction = '';
+  }
+
   let subsequentActions = req.params[0];
   if (subsequentActions) {
     subsequentActions = subsequentActions.split('/');
   } else {
     subsequentActions = [];
   }
-  const requestActions = [req.params.firstAction, ...subsequentActions];
+  const requestActions = [firstAction, ...subsequentActions];
 
   // Apply each action them
   for (const action of requestActions) {
