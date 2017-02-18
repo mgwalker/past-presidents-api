@@ -7,5 +7,14 @@ services:
       dockerfile: Dockerfile.production
     environment:
       PORT: 8000
+    expos:
+      - 8000
+
+  www:
+    build:
+      context: ./www
+      dockerfile: Dockerfile.production
+    links:
+      - api
     ports:
-      - 65004:8000
+      - 65004:80

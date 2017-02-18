@@ -9,5 +9,16 @@ services:
       PORT: 8000
     volumes:
       - ./api:/app
+    expose:
+      - 8000
+
+  www:
+    build:
+      context: ./www
+      dockerfile: Dockerfile.development
+    volumes:
+      - ./www/src:/app
+    links:
+      - api
     ports:
-      - 8080:8000
+      - 8080:80
