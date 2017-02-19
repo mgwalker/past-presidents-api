@@ -4,302 +4,346 @@
     "born": -7506086400000,
     "died": -5366217600000,
     "termStart": -5701449600000,
-    "termEnd": -5453913600000
+    "termEnd": -5453913600000,
+    "_party": "None"
   },
   {
     "name": "John Adams",
     "born": -7389792000000,
     "died": -4528310400000,
     "termStart": -5453913600000,
-    "termEnd": -5327769600000
+    "termEnd": -5327769600000,
+    "_party": "Federalist"
   },
   {
     "name": "Thomas Jefferson",
     "born": -7154611200000,
     "died": -4528310400000,
     "termStart": -5327769600000,
-    "termEnd": -5075308800000
+    "termEnd": -5075308800000,
+    "_party": "Democratic-Republican"
   },
   {
     "name": "James Madison",
     "born": -6904569600000,
     "died": -4213209600000,
     "termStart": -5075308800000,
-    "termEnd": -4822848000000
+    "termEnd": -4822848000000,
+    "_party": "Democratic-Republican"
   },
   {
     "name": "James Monroe",
     "born": -6679929600000,
     "died": -4370544000000,
     "termStart": -4822848000000,
-    "termEnd": -4570387200000
+    "termEnd": -4570387200000,
+    "_party": "Democratic-Republican"
   },
   {
     "name": "John Quincy Adams",
     "born": -6389539200000,
     "died": -3845404800000,
     "termStart": -4570387200000,
-    "termEnd": -4444156800000
+    "termEnd": -4444156800000,
+    "_party": "Democratic-Republican"
   },
   {
     "name": "Andrew Jackson",
     "born": -6399734400000,
     "died": -3930940800000,
     "termStart": -4444156800000,
-    "termEnd": -4191696000000
+    "termEnd": -4191696000000,
+    "_party": "Democratic"
   },
   {
     "name": "Martin van Buren",
     "born": -5903452800000,
     "died": -3390508800000,
     "termStart": -4191696000000,
-    "termEnd": -4065465600000
+    "termEnd": -4065465600000,
+    "_party": "Democratic"
   },
   {
     "name": "William Henry Harrison",
     "born": -6213283200000,
     "died": -4062787200000,
     "termStart": -4065465600000,
-    "termEnd": -4062787200000
+    "termEnd": -4062787200000,
+    "_party": "Whig"
   },
   {
     "name": "John Tyler",
     "born": -5672678400000,
     "died": -3406665600000,
     "termStart": -4062787200000,
-    "termEnd": -3939235200000
+    "termEnd": -3939235200000,
+    "_party": "Whig"
   },
   {
     "name": "James K. Polk",
     "born": -5496076800000,
     "died": -3804105600000,
     "termStart": -3939235200000,
-    "termEnd": -3813004800000
+    "termEnd": -3813004800000,
+    "_party": "Democratic"
   },
   {
     "name": "Zachary Taylor",
     "born": -5841244800000,
     "died": -3770496000000,
     "termStart": -3813004800000,
-    "termEnd": -3770496000000
+    "termEnd": -3770496000000,
+    "_party": "Whig"
   },
   {
     "name": "Millard Fillmore",
     "born": -5364144000000,
     "died": -3023740800000,
     "termStart": -3770496000000,
-    "termEnd": -3686774400000
+    "termEnd": -3686774400000,
+    "_party": "Whig"
   },
   {
     "name": "Franklin Pierce",
     "born": -5210265600000,
     "died": -3163017600000,
     "termStart": -3686774400000,
-    "termEnd": -3560544000000
+    "termEnd": -3560544000000,
+    "_party": "Democratic"
   },
   {
     "name": "James Buchanan",
     "born": -5638982400000,
     "died": -3205699200000,
     "termStart": -3560544000000,
-    "termEnd": -3434313600000
+    "termEnd": -3434313600000,
+    "_party": "Democratic"
   },
   {
     "name": "Abraham Lincoln",
     "born": -5077036800000,
     "died": -3304454400000,
     "termStart": -3434313600000,
-    "termEnd": -3304454400000
+    "termEnd": -3304454400000,
+    "_party": "Republican"
   },
   {
     "name": "Andrew Johnson",
     "born": -5080924800000,
     "died": -2979676800000,
     "termStart": -3304454400000,
-    "termEnd": -3181852800000
+    "termEnd": -3181852800000,
+    "_party": "Democratic"
   },
   {
     "name": "Ulysses S. Grant",
     "born": -4660416000000,
     "died": -2664748800000,
     "termStart": -3181852800000,
-    "termEnd": -2929392000000
+    "termEnd": -2929392000000,
+    "_party": "Republican"
   },
   {
     "name": "Rutherford B. Hayes",
     "born": -4646592000000,
     "died": -2428444800000,
     "termStart": -2929392000000,
-    "termEnd": -2803161600000
+    "termEnd": -2803161600000,
+    "_party": "Republican"
   },
   {
     "name": "James A. Garfield",
     "born": -4358620800000,
     "died": -2785968000000,
     "termStart": -2803161600000,
-    "termEnd": -2785968000000
+    "termEnd": -2785968000000,
+    "_party": "Republican"
   },
   {
     "name": "Chester A. Arthur",
     "born": -4425580800000,
     "died": -2623017600000,
     "termStart": -2785968000000,
-    "termEnd": -2676931200000
+    "termEnd": -2676931200000,
+    "_party": "Republican"
   },
   {
     "name": "Grover Cleveland",
     "born": -4190486400000,
     "died": -1941494400000,
     "termStart": -2676931200000,
-    "termEnd": -2550700800000
+    "termEnd": -2550700800000,
+    "_party": "Democratic"
   },
   {
     "name": "Benjamin Harrison",
     "born": -4303324800000,
     "died": -2171318400000,
     "termStart": -2550700800000,
-    "termEnd": -2424470400000
+    "termEnd": -2424470400000,
+    "_party": "Republican"
   },
   {
     "name": "Grover Cleveland",
     "born": -4190486400000,
     "died": -1941494400000,
     "termStart": -2424470400000,
-    "termEnd": -2298240000000
+    "termEnd": -2298240000000,
+    "_party": "Democratic"
   },
   {
     "name": "William McKinley",
     "born": -4005331200000,
     "died": -2155334400000,
     "termStart": -2298240000000,
-    "termEnd": -2155334400000
+    "termEnd": -2155334400000,
+    "_party": "Republican"
   },
   {
     "name": "Theodore Roosevelt",
     "born": -3508531200000,
     "died": -1609027200000,
     "termStart": -2155334400000,
-    "termEnd": -1919635200000
+    "termEnd": -1919635200000,
+    "_party": "Republican"
   },
   {
     "name": "William Howard Taft",
     "born": -3543696000000,
     "died": -1256601600000,
     "termStart": -1919635200000,
-    "termEnd": -1793404800000
+    "termEnd": -1793404800000,
+    "_party": "Republican"
   },
   {
     "name": "Woodrow Wilson",
     "born": -3566246400000,
     "died": -1448841600000,
     "termStart": -1793404800000,
-    "termEnd": -1540944000000
+    "termEnd": -1540944000000,
+    "_party": "Democratic"
   },
   {
     "name": "Warren G. Harding",
     "born": -3310675200000,
     "died": -1464825600000,
     "termStart": -1540944000000,
-    "termEnd": -1463011200000
+    "termEnd": -1463011200000,
+    "_party": "Republican"
   },
   {
     "name": "Calvin Coolidge",
     "born": -3076617600000,
     "died": -1167264000000,
     "termStart": -1463011200000,
-    "termEnd": -1288483200000
+    "termEnd": -1288483200000,
+    "_party": "Republican"
   },
   {
     "name": "Herbert Hoover",
     "born": -3010348800000,
     "died": -164073600000,
     "termStart": -1288483200000,
-    "termEnd": -1162252800000
+    "termEnd": -1162252800000,
+    "_party": "Republican"
   },
   {
     "name": "Franklin D. Roosevelt",
     "born": -2774476800000,
     "died": -780192000000,
     "termStart": -1162252800000,
-    "termEnd": -780192000000
+    "termEnd": -780192000000,
+    "_party": "Democratic"
   },
   {
     "name": "Harry Truman",
     "born": -2702851200000,
     "died": 94176000000,
     "termStart": -780192000000,
-    "termEnd": -534816000000
+    "termEnd": -534816000000,
+    "_party": "Democratic"
   },
   {
     "name": "Dwight D. Eisenhower",
     "born": -2497132800000,
     "died": -24105600000,
     "termStart": -534816000000,
-    "termEnd": -282355200000
+    "termEnd": -282355200000,
+    "_party": "Republican"
   },
   {
     "name": "John F. Kennedy",
     "born": -1659744000000,
     "died": -192844800000,
     "termStart": -282355200000,
-    "termEnd": -192844800000
+    "termEnd": -192844800000,
+    "_party": "Democratic"
   },
   {
     "name": "Lyndon Johnson",
     "born": -1935964800000,
     "died": 96508800000,
     "termStart": -192844800000,
-    "termEnd": -29894400000
+    "termEnd": -29894400000,
+    "_party": "Democratic"
   },
   {
     "name": "Richard Nixon",
     "born": -1798070400000,
     "died": 766972800000,
     "termStart": -29894400000,
-    "termEnd": 145238400000
+    "termEnd": 145238400000,
+    "_party": "Republican"
   },
   {
     "name": "Gerald Ford",
     "born": -1782000000000,
     "died": 1167091200000,
     "termStart": 145238400000,
-    "termEnd": 222566400000
+    "termEnd": 222566400000,
+    "_party": "Republican"
   },
   {
     "name": "Jimmy Carter",
     "born": -1428019200000,
     "termStart": 222566400000,
-    "termEnd": 348796800000
+    "termEnd": 348796800000,
+    "_party": "Democratic"
   },
   {
     "name": "Ronald Reagan",
     "born": -1858809600000,
     "died": 1086393600000,
     "termStart": 348796800000,
-    "termEnd": 601257600000
+    "termEnd": 601257600000,
+    "_party": "Republican"
   },
   {
     "name": "George H. W. Bush",
     "born": -1437609600000,
     "termStart": 601257600000,
-    "termEnd": 727488000000
+    "termEnd": 727488000000,
+    "_party": "Republican"
   },
   {
     "name": "Bill Clinton",
     "born": -737510400000,
     "termStart": 727488000000,
-    "termEnd": 979948800000
+    "termEnd": 979948800000,
+    "_party": "Democratic"
   },
   {
     "name": "George W. Bush",
     "born": -741312000000,
     "termStart": 979948800000,
-    "termEnd": 1232409600000
+    "termEnd": 1232409600000,
+    "_party": "Republican"
   },
   {
     "name": "Barack Obama",
     "born": -265420800000,
     "termStart": 1232409600000,
-    "termEnd": 1484870400000
+    "termEnd": 1484870400000,
+    "_party": "Democratic"
   }
 ]

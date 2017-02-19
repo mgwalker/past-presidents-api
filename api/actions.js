@@ -64,6 +64,15 @@ module.exports = [
   },
 
   {
+    names: ['party'],
+    apply(presidents) {
+      return add.party(presidents);
+    },
+    description: 'Adds the presidents\' parties to the output',
+    sortable: true
+  },
+
+  {
     names: ['sort', 'sorted'],
     apply(presidents) {
       return sort(presidents);
