@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const mustacheExpress = require('mustache-express');
 
+const util = require('./util');
 const actions = require('./actions');
 const map = require('./map');
 
@@ -11,12 +12,6 @@ const app = express();
 app.engine('mustache', mustacheExpress());
 app.set('view engine', 'mustache');
 app.set('views', path.join(__dirname, '/views'));
-
-app.get('/', (req, res) => {
-  res.render('index', { actions });
-});
-
-app.use('/static', express.static(path.join(__dirname, '/static')));
 
 function getPresidentsWithActions(actionsToApply) {
   let result = JSON.parse(JSON.stringify(PRESIDENTS));
@@ -41,7 +36,20 @@ function getPresidentsWithActions(actionsToApply) {
   return map.displayable(result);
 }
 
+app.get('/', (req, res) => {
+  res.render('index', { actions });
+});
 
+app.get(/^\/view\/?.*/, (req, res) => {
+  const requestActions = req.url.split('/').filter(bit => bit.length > 0 && bit !== 'view');
+  res.render('view', {
+    pct() {
+      return (val, render) => `${util.round(render(val) * 100, 2)}%`;
+    },
+    presidents: getPresidentsWithActions(requestActions) });
+});
+
+app.use('/static', express.static(path.join(__dirname, '/static')));
 
 app.get(/\/api\/?.*/, (req, res) => {
   const requestActions = req.url.split('/').filter(bit => bit.length > 0 && bit !== 'api');

@@ -1,0 +1,9 @@
+.president table tr td:first-of-type {
+  font-weight: bold;
+  text-align: right;
+  padding: 0.2rem 0.5rem;
+  vertical-align: top;
+}
+
+.president table tr td + td {
+}

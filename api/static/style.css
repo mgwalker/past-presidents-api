@@ -67,6 +67,6 @@ header img {
   padding: 0.25rem 0;
 }
 
-tr + tr td {
+.action table tr + tr td {
   border-top: 1px dotted #BBB;
 }
