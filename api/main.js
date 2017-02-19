@@ -22,22 +22,18 @@ app.get('/', (req, res) => {
 
 app.use('/static', express.static(path.join(__dirname, '/static')));
 
-app.get('/:firstAction*?', (req, res) => {
+app.get('/api/:firstAction*?', (req, res) => {
   let result = getPresidents();
 
   // Get all the path action bits
-  let firstAction = req.params.firstAction;
-  if (!firstAction) {
-    firstAction = '';
-  }
+  const requestActions = [];
 
-  let subsequentActions = req.params[0];
-  if (subsequentActions) {
-    subsequentActions = subsequentActions.split('/');
-  } else {
-    subsequentActions = [];
+  if (req.params.firstAction) {
+    requestActions.push(req.params.firstAction);
+    if (req.params[0]) {
+      requestActions.push(...req.params[0].split('/'));
+    }
   }
-  const requestActions = [firstAction, ...subsequentActions];
 
   // Apply each action them
   for (const action of requestActions) {
@@ -50,6 +46,8 @@ app.get('/:firstAction*?', (req, res) => {
   // And only send back the displayable parts
   if (requestActions.includes('raw')) {
     res.send(result);
+  } else if (requestActions.length === 0) {
+    res.send(result.map(president => ({ name: president.name })));
   } else {
     res.send(map.displayable(result));
   }
