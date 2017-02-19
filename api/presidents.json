@@ -151,7 +151,8 @@
     "died": -3406665600000,
     "termStart": -4062787200000,
     "termEnd": -3939235200000,
-    "_party": "Whig"
+    "_party": "Whig",
+    "_elections": [ ]
   },
   {
     "name": "James K. Polk",
@@ -187,7 +188,8 @@
     "died": -3023740800000,
     "termStart": -3770496000000,
     "termEnd": -3686774400000,
-    "_party": "Whig"
+    "_party": "Whig",
+    "_elections": [ ]
   },
   {
     "name": "Franklin Pierce",
@@ -241,7 +243,8 @@
     "died": -2979676800000,
     "termStart": -3304454400000,
     "termEnd": -3181852800000,
-    "_party": "Democratic"
+    "_party": "Democratic",
+    "_elections": [ ]
   },
   {
     "name": "Ulysses S. Grant",
@@ -295,7 +298,8 @@
     "died": -2623017600000,
     "termStart": -2785968000000,
     "termEnd": -2676931200000,
-    "_party": "Republican"
+    "_party": "Republican",
+    "_elections": [ ]
   },
   {
     "name": "Grover Cleveland",
@@ -555,7 +559,8 @@
     "died": 1167091200000,
     "termStart": 145238400000,
     "termEnd": 222566400000,
-    "_party": "Republican"
+    "_party": "Republican",
+    "_elections": [ ]
   },
   {
     "name": "Jimmy Carter",
