@@ -15,7 +15,17 @@
     just hit the endpoint <a href="/api/">presidents.darkcooger.net/api/</a>
     with any of the desired actions added on as path elements.  For example,
     if you want to see the list of living presidents sorted by age:<br/><br/>
-    <a href="/api/living/age/sorted">presidents.darkcooger.net/api/living/age/sorted</a><br/><br/>
+    <a href="/api/living/age/sorted">presidents.darkcooger.net/api/living/age/sort</a>
+
+    <br/><br/>
+
+    The actions can come in any order, but any time you have use
+    <span class="code">sort</span>, it will sort the list bsaed on the nearest
+    previous sortable action.  For example, in <span class="code">
+    /api/age/sort/term/birthday/</span>, the results will be sorted by age.
+
+    <br/><br/>
+
     Have fun!  The actions are listed below!
   </div>
 

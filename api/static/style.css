@@ -22,6 +22,11 @@ header img {
   margin: 1rem;
 }
 
+.content .code {
+  font-family: monospace;
+  background: #DDD;
+}
+
 .action {
   clear: both;
   border: 1px dashed black;
