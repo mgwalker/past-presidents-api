@@ -55,7 +55,7 @@ module.exports = [
   },
 
   {
-    names: ['sort'],
+    names: ['sort', 'sorted'],
     apply(presidents) {
       return sort(presidents);
     },
