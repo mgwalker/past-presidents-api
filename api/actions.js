@@ -1,5 +1,6 @@
 const filter = require('./filter');
 const add = require('./add-field');
+const map = require('./map');
 const sort = require('./sort');
 
 module.exports = [
@@ -70,6 +71,14 @@ module.exports = [
     },
     description: 'Adds the presidents\' parties to the output',
     sortable: true
+  },
+
+  {
+    names: ['stats', 'statistics'],
+    apply(presidents) {
+      return map.stats(presidents);
+    },
+    description: 'Adds statistics for the last stats-able field'
   },
 
   {
