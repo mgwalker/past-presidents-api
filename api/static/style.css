@@ -49,3 +49,24 @@ header img {
   margin-left: 20px;
   padding: 1rem 0;
 }
+
+.action table {
+  border-top: 1px solid black;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.action table td.name {
+  font-weight: bold;
+  vertical-align: top;
+  padding-right: 1rem;
+}
+
+.action table td {
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
+tr + tr td {
+  border-top: 1px dotted #BBB;
+}

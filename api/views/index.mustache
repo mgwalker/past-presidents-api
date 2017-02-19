@@ -34,8 +34,10 @@
     <h2>{{#names}}{{.}}<br/>{{/names}}</h2>
     <div>
       {{description}}
-      {{#sortable}}<br>• this field is sortable{{/sortable}}
-      {{#statsable}}<br>• this field is statsable{{/statsable}}
+      <table cellpadding="0" cellspacing="0">
+        {{#sort}}<tr><td class="name">sortable</td><td>{{sort}}</td></tr>{{/sort}}
+        {{#stats}}<tr><td class="name">statsable</td><td>{{stats}}</td></tr>{{/stats}}
+      </table>
     </div>
   </div>
   {{/actions}}

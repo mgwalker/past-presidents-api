@@ -34,7 +34,7 @@ module.exports = [
       return add.birth(presidents);
     },
     description: 'Adds the presidents\' birthdays to the output',
-    sortable: true
+    sort: 'Sorts by birthday, from most recent birth to oldest'
   },
 
   {
@@ -43,7 +43,7 @@ module.exports = [
       return add.death(presidents);
     },
     description: 'Adds the presidents\' deathdays to the output',
-    sortable: true
+    sort: 'Sorts by deathday, from most recent death to oldest'
   },
 
   {
@@ -52,7 +52,7 @@ module.exports = [
       return add.age(presidents);
     },
     description: 'Adds the presidents\' ages to the output.',
-    sortable: true
+    sort: 'Sorts by current age or age at death, from oldest to youngest'
   },
 
   {
@@ -61,7 +61,7 @@ module.exports = [
       return add.term(presidents);
     },
     description: 'Adds the presidents\' term lengths to the output',
-    sortable: true
+    sort: 'Sorts by term length, from longest to shortest'
   },
 
   {
@@ -70,8 +70,8 @@ module.exports = [
       return add.party(presidents);
     },
     description: 'Adds the presidents\' parties to the output',
-    sortable: true,
-    statsable: true
+    sort: 'Sorts by party affiliation, so all members of the same party are grouped together',
+    stats: 'Calculates the number of presidents per party, percentage, total number of days the party has held the presidency, percentage of that, and modifies the party sort to also sort the parties by number of days they held the presidency'
   },
 
   {
@@ -80,8 +80,8 @@ module.exports = [
       return add.elections(presidents);
     },
     description: 'Add the presidents\' election data to the output',
-    sortable: true,
-    statsable: true
+    sort: 'Sorts by the number of elections won, from most to least',
+    stats: 'Calculates the percentage of electoral votes each president won in each of their elections, and changes the sort such that presidents are sorted by their largest electoral victory, from largest to smallest.'
   },
 
   {
