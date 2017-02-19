@@ -70,7 +70,8 @@ module.exports = [
       return add.party(presidents);
     },
     description: 'Adds the presidents\' parties to the output',
-    sortable: true
+    sortable: true,
+    statsable: true
   },
 
   {
@@ -79,7 +80,8 @@ module.exports = [
       return add.elections(presidents);
     },
     description: 'Add the presidents\' election data to the output',
-    sortable: true
+    sortable: true,
+    statsable: true
   },
 
   {

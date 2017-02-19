@@ -8,6 +8,7 @@ module.exports = function electionStats(presidents) {
       local.electoralPct = util.round(local.electoralVotes / local.possibleElectoralVotes, 4);
       return local;
     });
+    out.sortBy = 'elections.elecoralPct';
     return out;
   });
 };
