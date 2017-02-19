@@ -1,4 +1,4 @@
-const displayableFields = ['name', 'age', 'fullAge', 'birthday', 'termLength', 'started', 'ended'];
+const displayableFields = ['name', 'age', 'fullAge', 'birthday', 'deathday', 'termLength', 'started', 'ended'];
 
 module.exports.displayable = function displayable(presidents) {
   return presidents.map((president) => {

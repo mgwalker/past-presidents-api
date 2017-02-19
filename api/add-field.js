@@ -13,11 +13,20 @@ module.exports.age = function addAge(presidents) {
   });
 };
 
-module.exports.birthday = function addBirthday(presidents) {
+module.exports.birth = function addBirthday(presidents) {
   return presidents.map((president) => {
     const out = president;
     out.birthday = util.getDateString(president.born);
     out.sortBy = 'born';
+    return out;
+  });
+};
+
+module.exports.death = function addDeathday(presidents) {
+  return presidents.map((president) => {
+    const out = president;
+    out.deathday = util.getDateString(president.died);
+    out.sortBy = 'died';
     return out;
   });
 };

@@ -28,11 +28,20 @@ module.exports = [
   },
 
   {
-    names: ['birthday'],
+    names: ['birth', 'birthday'],
     apply(presidents) {
-      return add.birthday(presidents);
+      return add.birth(presidents);
     },
     description: 'Adds the presidents\' birthdays to the output',
+    sortable: true
+  },
+
+  {
+    names: ['death', 'deathday'],
+    apply(presidents) {
+      return add.death(presidents);
+    },
+    description: 'Adds the presidents\' deathdays to the output',
     sortable: true
   },
 
