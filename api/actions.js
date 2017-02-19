@@ -1,6 +1,6 @@
 const filter = require('./filter');
 const add = require('./add-field');
-const map = require('./map');
+const stats = require('./stats');
 const sort = require('./sort');
 
 module.exports = [
@@ -76,7 +76,7 @@ module.exports = [
   {
     names: ['stats', 'statistics'],
     apply(presidents) {
-      return map.stats(presidents);
+      return stats(presidents);
     },
     description: 'Adds statistics for the last stats-able field'
   },
