@@ -41,17 +41,10 @@ function getPresidentsWithActions(actionsToApply) {
   return map.displayable(result);
 }
 
-app.get('/api/:firstAction*?', (req, res) => {
-  // Get all the path action bits
-  const requestActions = [];
 
-  if (req.params.firstAction) {
-    requestActions.push(req.params.firstAction);
-    if (req.params[0]) {
-      requestActions.push(...req.params[0].split('/'));
-    }
-  }
 
+app.get(/\/api\/?.*/, (req, res) => {
+  const requestActions = req.url.split('/').filter(bit => bit.length > 0 && bit !== 'api');
   res.send(getPresidentsWithActions(requestActions));
 });
 
