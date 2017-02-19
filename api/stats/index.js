@@ -1,4 +1,5 @@
 const party = require('./party');
+const elections = require('./elections');
 
 module.exports = function stats(presidents) {
   if (presidents.length > 0) {
@@ -7,6 +8,9 @@ module.exports = function stats(presidents) {
     switch (statField) {
       case 'party':
         return party(presidents);
+
+      case 'elections':
+        return elections(presidents);
 
       default:
         return presidents;

@@ -1,9 +1,5 @@
 const timediff = require('timediff');
-
-function round(number, decimals) {
-  const mover = Math.pow(10, decimals); // eslint-disable-line no-restricted-properties
-  return Math.round((number * mover)) / mover;
-}
+const util = require('../util');
 
 module.exports = function partyStats(presidents) {
   const parties = { };
@@ -31,9 +27,9 @@ module.exports = function partyStats(presidents) {
     president.party = {
       name: party.name,
       totalPresidents: party.presidents,
-      percentPresidents: round(party.presidents / presidents.length, 4),
+      percentPresidents: util.round(party.presidents / presidents.length, 4),
       totalDays: party.days,
-      percentDays: round(party.days / totalDays, 4)
+      percentDays: util.round(party.days / totalDays, 4)
     };
     president.partySort = president.party.totalDays;
     president.sortBy = 'partySort';

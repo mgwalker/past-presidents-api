@@ -15,3 +15,8 @@ module.exports.getDurationString = function getDurationString(timediff) {
   const { years, months, days } = timediff;
   return `${years} year${years === 1 ? '' : 's'}, ${months} month${months === 1 ? '' : 's'}, ${days} day${days === 1 ? '' : 's'}`;
 };
+
+module.exports.round = function round(number, decimals) {
+  const mover = Math.pow(10, decimals); // eslint-disable-line no-restricted-properties
+  return Math.round((number * mover)) / mover;
+};
