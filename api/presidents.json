@@ -8,10 +8,12 @@
     "_party": "None",
     "_elections": [
       {
+        "year": 1788,
         "electoralVotes": 69,
         "possibleElectoralVotes": 69
       },
       {
+        "year": 1792,
         "electoralVotes": 132,
         "possibleElectoralVotes": 132
       }
@@ -26,6 +28,7 @@
     "_party": "Federalist",
     "_elections": [
       {
+        "year": 1796,
         "electoralVotes": 71,
         "possibleElectoralVotes": 138
       }
@@ -40,10 +43,12 @@
     "_party": "Democratic-Republican",
     "_elections": [
       {
+        "year": 1800,
         "electoralVotes": 73,
         "possibleElectoralVotes": 138
       },
       {
+        "year": 1804,
         "electoralVotes": 162,
         "possibleElectoralVotes": 176
       }
@@ -58,10 +63,12 @@
     "_party": "Democratic-Republican",
     "_elections": [
       {
+        "year": 1808,
         "electoralVotes": 122,
         "possibleElectoralVotes": 175
       },
       {
+        "year": 1812,
         "electoralVotes": 128,
         "possibleElectoralVotes": 217
       }
@@ -76,10 +83,12 @@
     "_party": "Democratic-Republican",
     "_elections": [
       {
+        "year": 1816,
         "electoralVotes": 183,
         "possibleElectoralVotes": 217
       },
       {
+        "year": 1820,
         "electoralVotes": 231,
         "possibleElectoralVotes": 232
       }
@@ -94,6 +103,7 @@
     "_party": "Democratic-Republican",
     "_elections": [
       {
+        "year": 1824,
         "electoralVotes": 84,
         "possibleElectoralVotes": 261
       }
@@ -108,10 +118,12 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1828,
         "electoralVotes": 178,
         "possibleElectoralVotes": 261
       },
       {
+        "year": 1832,
         "electoralVotes": 219,
         "possibleElectoralVotes": 286
       }
@@ -126,6 +138,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1836,
         "electoralVotes": 170,
         "possibleElectoralVotes": 294
       }
@@ -140,6 +153,7 @@
     "_party": "Whig",
     "_elections": [
       {
+        "year": 1840,
         "electoralVotes": 234,
         "possibleElectoralVotes": 294
       }
@@ -163,6 +177,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1844,
         "electoralVotes": 170,
         "possibleElectoralVotes": 275
       }
@@ -177,6 +192,7 @@
     "_party": "Whig",
     "_elections": [
       {
+        "year": 1848,
         "electoralVotes": 163,
         "possibleElectoralVotes": 290
       }
@@ -200,6 +216,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1852,
         "electoralVotes": 254,
         "possibleElectoralVotes": 296
       }
@@ -214,6 +231,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1856,
         "electoralVotes": 174,
         "possibleElectoralVotes": 296
       }
@@ -228,10 +246,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1860,
         "electoralVotes": 180,
         "possibleElectoralVotes": 303
       },
       {
+        "year": 1864,
         "electoralVotes": 212,
         "possibleElectoralVotes": 233
       }
@@ -255,10 +275,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1868,
         "electoralVotes": 214,
         "possibleElectoralVotes": 294
       },
       {
+        "year": 1872,
         "electoralVotes": 286,
         "possibleElectoralVotes": 352
       }
@@ -273,6 +295,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1876,
         "electoralVotes": 185,
         "possibleElectoralVotes": 369
       }
@@ -287,6 +310,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1880,
         "electoralVotes": 214,
         "possibleElectoralVotes": 369
       }
@@ -310,8 +334,14 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1884,
         "electoralVotes": 219,
         "possibleElectoralVotes": 401
+      },
+      {
+        "year": 1892,
+        "electoralVotes": 277,
+        "possibleElectoralVotes": 444
       }
     ]
   },
@@ -324,22 +354,9 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1888,
         "electoralVotes": 233,
         "possibleElectoralVotes": 401
-      }
-    ]
-  },
-  {
-    "name": "Grover Cleveland",
-    "born": -4190486400000,
-    "died": -1941494400000,
-    "termStart": -2424470400000,
-    "termEnd": -2298240000000,
-    "_party": "Democratic",
-    "_elections": [
-      {
-        "electoralVotes": 277,
-        "possibleElectoralVotes": 444
       }
     ]
   },
@@ -352,10 +369,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1896,
         "electoralVotes": 271,
         "possibleElectoralVotes": 447
       },
       {
+        "year": 1900,
         "electoralVotes": 292,
         "possibleElectoralVotes": 447
       }
@@ -370,6 +389,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1904,
         "electoralVotes": 336,
         "possibleElectoralVotes": 476
       }
@@ -384,6 +404,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1908,
         "electoralVotes": 321,
         "possibleElectoralVotes": 483
       }
@@ -398,10 +419,12 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1912,
         "electoralVotes": 435,
         "possibleElectoralVotes": 531
       },
       {
+        "year": 1916,
         "electoralVotes": 277,
         "possibleElectoralVotes": 531
       }
@@ -416,6 +439,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1920,
         "electoralVotes": 404,
         "possibleElectoralVotes": 531
       }
@@ -430,6 +454,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1924,
         "electoralVotes": 382,
         "possibleElectoralVotes": 531
       }
@@ -444,6 +469,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1928,
         "electoralVotes": 444,
         "possibleElectoralVotes": 531
       }
@@ -458,18 +484,22 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1932,
         "electoralVotes": 472,
         "possibleElectoralVotes": 531
       },
       {
+        "year": 1936,
         "electoralVotes": 523,
         "possibleElectoralVotes": 531
       },
       {
+        "year": 1940,
         "electoralVotes": 449,
         "possibleElectoralVotes": 531
       },
       {
+        "year": 1944,
         "electoralVotes": 432,
         "possibleElectoralVotes": 531
       }
@@ -484,6 +514,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1948,
         "electoralVotes": 303,
         "possibleElectoralVotes": 531
       }
@@ -498,10 +529,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1952,
         "electoralVotes": 442,
         "possibleElectoralVotes": 531
       },
       {
+        "year": 1956,
         "electoralVotes": 457,
         "possibleElectoralVotes": 531
       }
@@ -516,6 +549,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1960,
         "electoralVotes": 303,
         "possibleElectoralVotes": 537
       }
@@ -530,6 +564,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1964,
         "electoralVotes": 486,
         "possibleElectoralVotes": 538
       }
@@ -544,10 +579,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1968,
         "electoralVotes": 301,
         "possibleElectoralVotes": 538
       },
       {
+        "year": 1972,
         "electoralVotes": 520,
         "possibleElectoralVotes": 538
       }
@@ -570,6 +607,7 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1976,
         "electoralVotes": 297,
         "possibleElectoralVotes": 538
       }
@@ -584,10 +622,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1980,
         "electoralVotes": 489,
         "possibleElectoralVotes": 538
       },
       {
+        "year": 1984,
         "electoralVotes": 525,
         "possibleElectoralVotes": 538
       }
@@ -601,6 +641,7 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 1988,
         "electoralVotes": 426,
         "possibleElectoralVotes": 538
       }
@@ -614,10 +655,12 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 1992,
         "electoralVotes": 370,
         "possibleElectoralVotes": 538
       },
       {
+        "year": 1996,
         "electoralVotes": 379,
         "possibleElectoralVotes": 538
       }
@@ -631,10 +674,12 @@
     "_party": "Republican",
     "_elections": [
       {
+        "year": 2000,
         "electoralVotes": 271,
         "possibleElectoralVotes": 538
       },
       {
+        "year": 2004,
         "electoralVotes": 286,
         "possibleElectoralVotes": 538
       }
@@ -648,10 +693,12 @@
     "_party": "Democratic",
     "_elections": [
       {
+        "year": 2008,
         "electoralVotes": 365,
         "possibleElectoralVotes": 538
       },
       {
+        "year": 2012,
         "electoralVotes": 332,
         "possibleElectoralVotes": 538
       }
