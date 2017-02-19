@@ -53,3 +53,13 @@ module.exports.party = function addParty(presidents) {
     return out;
   });
 };
+
+module.exports.elections = function addElections(presidents) {
+  return presidents.map((president) => {
+    const out = president;
+    out.elections = out._elections; // eslint-disable-line no-underscore-dangle
+    out.sortBy = 'elections';
+    out.statField = 'elections';
+    return out;
+  });
+};

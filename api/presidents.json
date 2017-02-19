@@ -6,7 +6,7 @@
     "termStart": -5701449600000,
     "termEnd": -5453913600000,
     "_party": "None",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 69,
         "possibleElectoralVotes": 69
@@ -24,7 +24,7 @@
     "termStart": -5453913600000,
     "termEnd": -5327769600000,
     "_party": "Federalist",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 71,
         "possibleElectoralVotes": 138
@@ -38,7 +38,7 @@
     "termStart": -5327769600000,
     "termEnd": -5075308800000,
     "_party": "Democratic-Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 73,
         "possibleElectoralVotes": 138
@@ -56,7 +56,7 @@
     "termStart": -5075308800000,
     "termEnd": -4822848000000,
     "_party": "Democratic-Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 122,
         "possibleElectoralVotes": 175
@@ -74,7 +74,7 @@
     "termStart": -4822848000000,
     "termEnd": -4570387200000,
     "_party": "Democratic-Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 183,
         "possibleElectoralVotes": 217
@@ -92,7 +92,7 @@
     "termStart": -4570387200000,
     "termEnd": -4444156800000,
     "_party": "Democratic-Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 84,
         "possibleElectoralVotes": 261
@@ -106,7 +106,7 @@
     "termStart": -4444156800000,
     "termEnd": -4191696000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 178,
         "possibleElectoralVotes": 261
@@ -124,7 +124,7 @@
     "termStart": -4191696000000,
     "termEnd": -4065465600000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 170,
         "possibleElectoralVotes": 294
@@ -138,7 +138,7 @@
     "termStart": -4065465600000,
     "termEnd": -4062787200000,
     "_party": "Whig",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 234,
         "possibleElectoralVotes": 294
@@ -160,7 +160,7 @@
     "termStart": -3939235200000,
     "termEnd": -3813004800000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 170,
         "possibleElectoralVotes": 275
@@ -174,7 +174,7 @@
     "termStart": -3813004800000,
     "termEnd": -3770496000000,
     "_party": "Whig",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 163,
         "possibleElectoralVotes": 290
@@ -196,7 +196,7 @@
     "termStart": -3686774400000,
     "termEnd": -3560544000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 254,
         "possibleElectoralVotes": 296
@@ -210,7 +210,7 @@
     "termStart": -3560544000000,
     "termEnd": -3434313600000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 174,
         "possibleElectoralVotes": 296
@@ -224,7 +224,7 @@
     "termStart": -3434313600000,
     "termEnd": -3304454400000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 180,
         "possibleElectoralVotes": 303
@@ -250,7 +250,7 @@
     "termStart": -3181852800000,
     "termEnd": -2929392000000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 214,
         "possibleElectoralVotes": 294
@@ -268,7 +268,7 @@
     "termStart": -2929392000000,
     "termEnd": -2803161600000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 185,
         "possibleElectoralVotes": 369
@@ -282,7 +282,7 @@
     "termStart": -2803161600000,
     "termEnd": -2785968000000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 214,
         "possibleElectoralVotes": 369
@@ -304,7 +304,7 @@
     "termStart": -2676931200000,
     "termEnd": -2550700800000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 219,
         "possibleElectoralVotes": 401
@@ -318,7 +318,7 @@
     "termStart": -2550700800000,
     "termEnd": -2424470400000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 233,
         "possibleElectoralVotes": 401
@@ -332,7 +332,7 @@
     "termStart": -2424470400000,
     "termEnd": -2298240000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 277,
         "possibleElectoralVotes": 444
@@ -346,7 +346,7 @@
     "termStart": -2298240000000,
     "termEnd": -2155334400000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 271,
         "possibleElectoralVotes": 447
@@ -364,7 +364,7 @@
     "termStart": -2155334400000,
     "termEnd": -1919635200000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 336,
         "possibleElectoralVotes": 476
@@ -378,7 +378,7 @@
     "termStart": -1919635200000,
     "termEnd": -1793404800000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 321,
         "possibleElectoralVotes": 483
@@ -392,7 +392,7 @@
     "termStart": -1793404800000,
     "termEnd": -1540944000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 435,
         "possibleElectoralVotes": 531
@@ -410,7 +410,7 @@
     "termStart": -1540944000000,
     "termEnd": -1463011200000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 404,
         "possibleElectoralVotes": 531
@@ -424,7 +424,7 @@
     "termStart": -1463011200000,
     "termEnd": -1288483200000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 382,
         "possibleElectoralVotes": 531
@@ -438,7 +438,7 @@
     "termStart": -1288483200000,
     "termEnd": -1162252800000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 444,
         "possibleElectoralVotes": 531
@@ -452,7 +452,7 @@
     "termStart": -1162252800000,
     "termEnd": -780192000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 472,
         "possibleElectoralVotes": 531
@@ -478,7 +478,7 @@
     "termStart": -780192000000,
     "termEnd": -534816000000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 303,
         "possibleElectoralVotes": 531
@@ -492,7 +492,7 @@
     "termStart": -534816000000,
     "termEnd": -282355200000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 442,
         "possibleElectoralVotes": 531
@@ -510,7 +510,7 @@
     "termStart": -282355200000,
     "termEnd": -192844800000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 303,
         "possibleElectoralVotes": 537
@@ -524,7 +524,7 @@
     "termStart": -192844800000,
     "termEnd": -29894400000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 486,
         "possibleElectoralVotes": 538
@@ -538,7 +538,7 @@
     "termStart": -29894400000,
     "termEnd": 145238400000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 301,
         "possibleElectoralVotes": 538
@@ -563,7 +563,7 @@
     "termStart": 222566400000,
     "termEnd": 348796800000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 297,
         "possibleElectoralVotes": 538
@@ -577,7 +577,7 @@
     "termStart": 348796800000,
     "termEnd": 601257600000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 489,
         "possibleElectoralVotes": 538
@@ -594,7 +594,7 @@
     "termStart": 601257600000,
     "termEnd": 727488000000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 426,
         "possibleElectoralVotes": 538
@@ -607,7 +607,7 @@
     "termStart": 727488000000,
     "termEnd": 979948800000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 370,
         "possibleElectoralVotes": 538
@@ -624,7 +624,7 @@
     "termStart": 979948800000,
     "termEnd": 1232409600000,
     "_party": "Republican",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 271,
         "possibleElectoralVotes": 538
@@ -641,7 +641,7 @@
     "termStart": 1232409600000,
     "termEnd": 1484870400000,
     "_party": "Democratic",
-    "elections": [
+    "_elections": [
       {
         "electoralVotes": 365,
         "possibleElectoralVotes": 538

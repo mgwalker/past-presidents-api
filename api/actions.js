@@ -74,6 +74,15 @@ module.exports = [
   },
 
   {
+    names: ['elections'],
+    apply(presidents) {
+      return add.elections(presidents);
+    },
+    description: 'Add the presidents\' election data to the output',
+    sortable: true
+  },
+
+  {
     names: ['stats', 'statistics'],
     apply(presidents) {
       return stats(presidents);
