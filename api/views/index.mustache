@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Presidents!</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+</head>
+<body>
+  <header>
+    <img src="/static/us-flag.svg" />
+    Welcome to the Past Presidents API
+  </header>
+
+  <div class="content">
+    Here's a little API with data about past presidents.  The API querying is
+    pretty flexible, with all the actions described below.  To use the API,
+    just hit the endpoint <a href="/api/">presidents.darkcooger.net/api/</a>
+    with any of the desired actions added on as path elements.  For example,
+    if you want to see the list of living presidents sorted by age:<br/><br/>
+    <a href="/api/living/age/sorted">presidents.darkcooger.net/api/living/age/sorted</a><br/><br/>
+    Have fun!  The actions are listed below!
+  </div>
+
+  {{#actions}}
+  <div class="action">
+    <h2>{{#names}}{{.}}<br/>{{/names}}</h2>
+    <div>
+      {{description}}
+      {{#sortable}}<br>• this field is sortable{{/sortable}}
+    </div>
+  </div>
+  {{/actions}}
+
+  <div class="action">
+    <h2>raw<br/></h2>
+    <div>
+      Sends back the unclean data in its full glory
+    </div>
+</body>
+</html>
