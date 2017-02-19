@@ -4,8 +4,11 @@ const MONTHNAMES = [
 ];
 
 module.exports.getDateString = function getDateString(ts) {
-  const date = new Date(ts);
-  return `${MONTHNAMES[date.getUTCMonth()]} ${date.getUTCDate()}, ${date.getUTCFullYear()}`;
+  if (ts) {
+    const date = new Date(ts);
+    return `${MONTHNAMES[date.getUTCMonth()]} ${date.getUTCDate()}, ${date.getUTCFullYear()}`;
+  }
+  return null;
 };
 
 module.exports.getDurationString = function getDurationString(timediff) {
