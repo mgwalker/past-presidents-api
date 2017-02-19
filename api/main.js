@@ -7,10 +7,6 @@ const map = require('./map');
 
 const PRESIDENTS = require('./presidents.json');
 
-function getPresidents() {
-  return JSON.parse(JSON.stringify(PRESIDENTS));
-}
-
 const app = express();
 app.engine('mustache', mustacheExpress());
 app.set('view engine', 'mustache');
@@ -22,9 +18,30 @@ app.get('/', (req, res) => {
 
 app.use('/static', express.static(path.join(__dirname, '/static')));
 
-app.get('/api/:firstAction*?', (req, res) => {
-  let result = getPresidents();
+function getPresidentsWithActions(actionsToApply) {
+  let result = JSON.parse(JSON.stringify(PRESIDENTS));
 
+  for (const action of actionsToApply) {
+    const knownAction = actions.find(act => act.names.includes(action.toLowerCase()));
+    if (knownAction) {
+      result = knownAction.apply(result);
+    }
+  }
+
+  if (actionsToApply.includes('raw')) {
+    // If the actions include "raw", send back everything.
+    return result;
+  } else if (actionsToApply.length === 0) {
+    // If there aren't any actions, only send back names.
+    return result.map(president => ({ name: president.name }));
+  }
+
+  // Else, send back the filtered view, where we remove
+  // the interim fields.
+  return map.displayable(result);
+}
+
+app.get('/api/:firstAction*?', (req, res) => {
   // Get all the path action bits
   const requestActions = [];
 
@@ -35,22 +52,7 @@ app.get('/api/:firstAction*?', (req, res) => {
     }
   }
 
-  // Apply each action them
-  for (const action of requestActions) {
-    const knownAction = actions.find(act => act.names.includes(action.toLowerCase()));
-    if (knownAction) {
-      result = knownAction.apply(result);
-    }
-  }
-
-  // And only send back the displayable parts
-  if (requestActions.includes('raw')) {
-    res.send(result);
-  } else if (requestActions.length === 0) {
-    res.send(result.map(president => ({ name: president.name })));
-  } else {
-    res.send(map.displayable(result));
-  }
+  res.send(getPresidentsWithActions(requestActions));
 });
 
 app.listen(process.env.PORT || 8000);
