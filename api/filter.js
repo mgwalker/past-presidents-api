@@ -9,3 +9,7 @@ module.exports.alive = function alive(presidents) {
 module.exports.diedInOffice = function diedInOffice(presidents) {
   return presidents.filter(president => president.died === president.termEnd);
 };
+
+module.exports.unelected = function unelected(presidents) {
+  return presidents.filter(president => president._elections.length === 0); // eslint-disable-line no-underscore-dangle
+};

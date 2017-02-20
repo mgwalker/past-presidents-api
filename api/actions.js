@@ -29,6 +29,14 @@ module.exports = [
   },
 
   {
+    names: ['unelected'],
+    apply(presidents) {
+      return filter.unelected(presidents);
+    },
+    description: 'Filters to just the presidents who were never elected'
+  },
+
+  {
     names: ['birth', 'birthday'],
     apply(presidents) {
       return add.birth(presidents);
