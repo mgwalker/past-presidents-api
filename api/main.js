@@ -16,6 +16,23 @@ app.set('views', path.join(__dirname, '/views'));
 function getPresidentsWithActions(actionsToApply) {
   let result = JSON.parse(JSON.stringify(PRESIDENTS));
 
+  if (actionsToApply.includes('unclassy')) {
+    result.push({
+      name: 'Lord Dampnut',
+      _photo: 'http://www.commondreams.org/sites/default/files/cheetojesus_clczincusaitpkp.jpg',
+      born: -743194800000,
+      termStart: 1484892000000,
+      _party: 'Republican',
+      _elections: [
+        {
+          year: 2016,
+          electoralVotes: 304,
+          possibleElectoralVotes: 538
+        }
+      ]
+    });
+  }
+
   for (const action of actionsToApply) {
     const knownAction = actions.find(act => act.names.includes(action.toLowerCase()));
     if (knownAction) {
