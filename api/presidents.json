@@ -101,7 +101,7 @@
   },
   {
     "name": "John Quincy Adams",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/5/51/JQA_Photo.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/JQA_Photo.tif/lossy-page1-784px-JQA_Photo.tif.jpg",
     "born": -6389539200000,
     "died": -3845404800000,
     "termStart": -4570387200000,
@@ -180,7 +180,7 @@
   },
   {
     "name": "James K. Polk",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/3/32/JKP.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/James_Polk_restored.jpg/851px-James_Polk_restored.jpg",
     "born": -5496076800000,
     "died": -3804105600000,
     "termStart": -3939235200000,
@@ -406,7 +406,7 @@
   },
   {
     "name": "Theodore Roosevelt",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/4/42/President_Roosevelt_-_Pach_Bros.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/President_Roosevelt_-_Pach_Bros.tif/lossy-page1-725px-President_Roosevelt_-_Pach_Bros.tif.jpg",
     "born": -3508531200000,
     "died": -1609027200000,
     "termStart": -2155334400000,
@@ -422,7 +422,7 @@
   },
   {
     "name": "William Howard Taft",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/William_Howard_Taft%2C_head-and-shoulders_portrait%2C_facing_front.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/William_Howard_Taft_1909b.jpg/767px-William_Howard_Taft_1909b.jpg",
     "born": -3543696000000,
     "died": -1256601600000,
     "termStart": -1919635200000,
@@ -491,7 +491,7 @@
   },
   {
     "name": "Herbert Hoover",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/President_Hoover_portrait.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/President_Hoover_portrait.tif/lossy-page1-1087px-President_Hoover_portrait.tif.jpg",
     "born": -3010348800000,
     "died": -164073600000,
     "termStart": -1288483200000,
@@ -507,7 +507,7 @@
   },
   {
     "name": "Franklin D. Roosevelt",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/3/30/FDR_1944_Color_Portrait.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FDR_1944_Color_Portrait.tif/lossy-page1-710px-FDR_1944_Color_Portrait.tif.jpg",
     "born": -2774476800000,
     "died": -780192000000,
     "termStart": -1162252800000,
@@ -554,7 +554,7 @@
   },
   {
     "name": "Dwight D. Eisenhower",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/5/52/President_Eisenhower_Portrait_1959.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dwight_D._Eisenhower%2C_White_House_photo_portrait%2C_February_1959.jpg/847px-Dwight_D._Eisenhower%2C_White_House_photo_portrait%2C_February_1959.jpg",
     "born": -2497132800000,
     "died": -24105600000,
     "termStart": -534816000000,
@@ -607,7 +607,7 @@
   },
   {
     "name": "Richard Nixon",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/9/98/Richard_M._Nixon%2C_ca._1935_-_1982_-_NARA_-_530679.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Richard_M._Nixon%2C_ca._1935_-_1982_-_NARA_-_530679.jpg/847px-Richard_M._Nixon%2C_ca._1935_-_1982_-_NARA_-_530679.jpg",
     "born": -1798070400000,
     "died": 766972800000,
     "termStart": -29894400000,
@@ -628,7 +628,7 @@
   },
   {
     "name": "Gerald Ford",
-    "_photo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Gerald_Ford_-_NARA_-_530680.tif",
+    "_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Gerald_Ford_-_NARA_-_530680.tif/lossy-page1-762px-Gerald_Ford_-_NARA_-_530680.tif.jpg",
     "born": -1782000000000,
     "died": 1167091200000,
     "termStart": 145238400000,
