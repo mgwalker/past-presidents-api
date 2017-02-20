@@ -12,7 +12,8 @@ module.exports.getDateString = function getDateString(ts) {
 };
 
 module.exports.getDurationString = function getDurationString(timediff) {
-  const { years, months, days } = timediff;
+  const { years, months, weeks } = timediff;
+  const days = timediff.days + (weeks * 7);
   return `${years} year${years === 1 ? '' : 's'}, ${months} month${months === 1 ? '' : 's'}, ${days} day${days === 1 ? '' : 's'}`;
 };
 
