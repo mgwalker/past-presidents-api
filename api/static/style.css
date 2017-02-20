@@ -12,7 +12,7 @@ header {
   line-height: 4rem;
 }
 
-header img {
+header.index img {
   float: left;
   height: 3rem;
   margin: 0.5rem;

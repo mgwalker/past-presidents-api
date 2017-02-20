@@ -1,5 +1,5 @@
 const displayableFields = [
-  'name', 'age', 'fullAge', 'birthday', 'deathday',
+  'name', 'age', 'fullAge', 'birthday', 'deathday', 'photo',
   'termLength', 'started', 'ended', 'party',
   'elections'];
 

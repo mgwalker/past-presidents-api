@@ -85,6 +85,14 @@ module.exports = [
   },
 
   {
+    names: ['photo', 'picture', 'portrait'],
+    apply(presidents) {
+      return add.photo(presidents);
+    },
+    description: 'Add a link to the presidents\' portraits'
+  },
+
+  {
     names: ['stats', 'statistics'],
     apply(presidents) {
       return stats(presidents);
