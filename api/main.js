@@ -19,7 +19,7 @@ function getPresidentsWithActions(actionsToApply) {
   if (actionsToApply.includes('unclassy')) {
     result.push({
       name: 'Lord Dampnut',
-      _photo: 'http://www.commondreams.org/sites/default/files/cheetojesus_clczincusaitpkp.jpg',
+      _photo: 'http://i.imgur.com/JpENkWc.jpg',
       born: -743194800000,
       termStart: 1484892000000,
       _party: 'Republican',
