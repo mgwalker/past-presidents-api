@@ -5,6 +5,7 @@ services:
     build:
       context: ./api
       dockerfile: Dockerfile.production
+    restart: always
     environment:
       PORT: 8000
     ports:
