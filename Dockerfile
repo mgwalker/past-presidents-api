@@ -1,8 +1,9 @@
-FROM node:5
+FROM node:6
 
 RUN mkdir /app
 WORKDIR /app
-COPY . /app
+
+ADD ./package.json .
 RUN npm install
 
-CMD ["npm", "start"]
+CMD ["node", "docker.js"]
