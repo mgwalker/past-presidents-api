@@ -9,7 +9,7 @@ jobs:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: install dependencies
-          command: npm install
+          command: npm install --only=production
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
@@ -17,6 +17,9 @@ jobs:
       - run:
           name: install serverless
           command: sudo npm install -g serverless
+      - run:
+          name: install serverless plugins
+          command: npm install serverless-prune-plugin
       - run:
           name: deploy
           command: serverless deploy --stage production --region $SERVERLESS_DEPLOY_REGION
