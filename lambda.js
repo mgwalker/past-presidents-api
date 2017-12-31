@@ -14,6 +14,9 @@ const getLambdaResponse = (data, e) => {
   let response = data;
   if (isProxy(e)) {
     response = {
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      },
       body: JSON.stringify(data)
     };
   }
