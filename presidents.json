@@ -676,6 +676,7 @@
     "name": "George H. W. Bush",
     "_photo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/George_H._W._Bush%2C_President_of_the_United_States%2C_1989_official_portrait_cropped.jpg",
     "born": -1437609600000,
+    "died": 1543536000000,
     "termStart": 601257600000,
     "termEnd": 727488000000,
     "_party": "Republican",
