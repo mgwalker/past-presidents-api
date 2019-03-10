@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:10
 
 RUN mkdir /app
 WORKDIR /app
@@ -6,4 +6,4 @@ WORKDIR /app
 ADD ./package.json .
 RUN npm install
 
-CMD ["node", "docker.js"]
+CMD ["node", "main.js"]
